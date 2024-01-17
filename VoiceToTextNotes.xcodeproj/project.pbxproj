@@ -15,6 +15,23 @@
 		6C28B0252B587FFA00262D04 /* VoiceToTextNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0242B587FFA00262D04 /* VoiceToTextNotesTests.swift */; };
 		6C28B02F2B587FFA00262D04 /* VoiceToTextNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B02E2B587FFA00262D04 /* VoiceToTextNotesUITests.swift */; };
 		6C28B0312B587FFA00262D04 /* VoiceToTextNotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0302B587FFA00262D04 /* VoiceToTextNotesUITestsLaunchTests.swift */; };
+		6C28B0632B58821600262D04 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B04F2B58821600262D04 /* Localized.swift */; };
+		6C28B0642B58821600262D04 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0512B58821600262D04 /* APIClient.swift */; };
+		6C28B0652B58821600262D04 /* LoadingDataState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0522B58821600262D04 /* LoadingDataState.swift */; };
+		6C28B0662B58821600262D04 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0532B58821600262D04 /* EndPoint.swift */; };
+		6C28B0672B58821600262D04 /* DeviceOrientationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0552B58821600262D04 /* DeviceOrientationModifier.swift */; };
+		6C28B0682B58821600262D04 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0562B58821600262D04 /* ThemeManager.swift */; };
+		6C28B0692B58821600262D04 /* AsyncPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0582B58821600262D04 /* AsyncPhoto.swift */; };
+		6C28B06A2B58821600262D04 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0592B58821600262D04 /* WebView.swift */; };
+		6C28B06B2B58821600262D04 /* AsyncImageURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B05A2B58821600262D04 /* AsyncImageURL.swift */; };
+		6C28B06C2B58821600262D04 /* TaskDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B05D2B58821600262D04 /* TaskDetailsViewModel.swift */; };
+		6C28B06D2B58821600262D04 /* TaskDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B05E2B58821600262D04 /* TaskDetailsView.swift */; };
+		6C28B06E2B58821600262D04 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0602B58821600262D04 /* TaskListViewModel.swift */; };
+		6C28B06F2B58821600262D04 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0612B58821600262D04 /* Task.swift */; };
+		6C28B0722B58836200262D04 /* TasksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0712B58836200262D04 /* TasksListView.swift */; };
+		6C28B0752B58843500262D04 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0742B58843500262D04 /* HomeView.swift */; };
+		6C28B0782B58886800262D04 /* NotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0772B58886800262D04 /* NotesListView.swift */; };
+		6C28B07A2B58891E00262D04 /* VoiceTexter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0792B58891E00262D04 /* VoiceTexter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +65,23 @@
 		6C28B02A2B587FFA00262D04 /* VoiceToTextNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceToTextNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C28B02E2B587FFA00262D04 /* VoiceToTextNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceToTextNotesUITests.swift; sourceTree = "<group>"; };
 		6C28B0302B587FFA00262D04 /* VoiceToTextNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceToTextNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6C28B04F2B58821600262D04 /* Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
+		6C28B0512B58821600262D04 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		6C28B0522B58821600262D04 /* LoadingDataState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingDataState.swift; sourceTree = "<group>"; };
+		6C28B0532B58821600262D04 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		6C28B0552B58821600262D04 /* DeviceOrientationModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceOrientationModifier.swift; sourceTree = "<group>"; };
+		6C28B0562B58821600262D04 /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		6C28B0582B58821600262D04 /* AsyncPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncPhoto.swift; sourceTree = "<group>"; };
+		6C28B0592B58821600262D04 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		6C28B05A2B58821600262D04 /* AsyncImageURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageURL.swift; sourceTree = "<group>"; };
+		6C28B05D2B58821600262D04 /* TaskDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsViewModel.swift; sourceTree = "<group>"; };
+		6C28B05E2B58821600262D04 /* TaskDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsView.swift; sourceTree = "<group>"; };
+		6C28B0602B58821600262D04 /* TaskListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		6C28B0612B58821600262D04 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		6C28B0712B58836200262D04 /* TasksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListView.swift; sourceTree = "<group>"; };
+		6C28B0742B58843500262D04 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6C28B0772B58886800262D04 /* NotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListView.swift; sourceTree = "<group>"; };
+		6C28B0792B58891E00262D04 /* VoiceTexter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceTexter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +132,8 @@
 		6C28B00E2B587FF800262D04 /* VoiceToTextNotes */ = {
 			isa = PBXGroup;
 			children = (
+				6C28B03E2B58817D00262D04 /* Scenes */,
+				6C28B03D2B58817800262D04 /* Modules */,
 				6C28B00F2B587FF800262D04 /* VoiceToTextNotesApp.swift */,
 				6C28B0112B587FF800262D04 /* ContentView.swift */,
 				6C28B0132B587FF800262D04 /* Item.swift */,
@@ -132,6 +168,109 @@
 				6C28B0302B587FFA00262D04 /* VoiceToTextNotesUITestsLaunchTests.swift */,
 			);
 			path = VoiceToTextNotesUITests;
+			sourceTree = "<group>";
+		};
+		6C28B03D2B58817800262D04 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B04E2B58821600262D04 /* Localization */,
+				6C28B0502B58821600262D04 /* Network */,
+				6C28B0542B58821600262D04 /* UIConfiguration */,
+				6C28B03F2B58818300262D04 /* VoiceTexter */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6C28B03E2B58817D00262D04 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B0762B58885900262D04 /* NotesList */,
+				6C28B0732B58841800262D04 /* TasksList */,
+				6C28B05C2B58821600262D04 /* TaskDetails */,
+				6C28B05F2B58821600262D04 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6C28B03F2B58818300262D04 /* VoiceTexter */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B0792B58891E00262D04 /* VoiceTexter.swift */,
+			);
+			path = VoiceTexter;
+			sourceTree = "<group>";
+		};
+		6C28B04E2B58821600262D04 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B04F2B58821600262D04 /* Localized.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		6C28B0502B58821600262D04 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B0512B58821600262D04 /* APIClient.swift */,
+				6C28B0522B58821600262D04 /* LoadingDataState.swift */,
+				6C28B0532B58821600262D04 /* EndPoint.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6C28B0542B58821600262D04 /* UIConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B0552B58821600262D04 /* DeviceOrientationModifier.swift */,
+				6C28B0562B58821600262D04 /* ThemeManager.swift */,
+				6C28B0572B58821600262D04 /* Components */,
+				6C28B05A2B58821600262D04 /* AsyncImageURL.swift */,
+			);
+			path = UIConfiguration;
+			sourceTree = "<group>";
+		};
+		6C28B0572B58821600262D04 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B0582B58821600262D04 /* AsyncPhoto.swift */,
+				6C28B0592B58821600262D04 /* WebView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6C28B05C2B58821600262D04 /* TaskDetails */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B05D2B58821600262D04 /* TaskDetailsViewModel.swift */,
+				6C28B05E2B58821600262D04 /* TaskDetailsView.swift */,
+			);
+			path = TaskDetails;
+			sourceTree = "<group>";
+		};
+		6C28B05F2B58821600262D04 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B0742B58843500262D04 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6C28B0732B58841800262D04 /* TasksList */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B0602B58821600262D04 /* TaskListViewModel.swift */,
+				6C28B0612B58821600262D04 /* Task.swift */,
+				6C28B0712B58836200262D04 /* TasksListView.swift */,
+			);
+			path = TasksList;
+			sourceTree = "<group>";
+		};
+		6C28B0762B58885900262D04 /* NotesList */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B0772B58886800262D04 /* NotesListView.swift */,
+			);
+			path = NotesList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +403,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C28B06F2B58821600262D04 /* Task.swift in Sources */,
+				6C28B0652B58821600262D04 /* LoadingDataState.swift in Sources */,
+				6C28B07A2B58891E00262D04 /* VoiceTexter.swift in Sources */,
 				6C28B0122B587FF800262D04 /* ContentView.swift in Sources */,
+				6C28B0722B58836200262D04 /* TasksListView.swift in Sources */,
+				6C28B0632B58821600262D04 /* Localized.swift in Sources */,
 				6C28B0142B587FF800262D04 /* Item.swift in Sources */,
+				6C28B0642B58821600262D04 /* APIClient.swift in Sources */,
+				6C28B0692B58821600262D04 /* AsyncPhoto.swift in Sources */,
+				6C28B06D2B58821600262D04 /* TaskDetailsView.swift in Sources */,
+				6C28B06B2B58821600262D04 /* AsyncImageURL.swift in Sources */,
+				6C28B0682B58821600262D04 /* ThemeManager.swift in Sources */,
+				6C28B0672B58821600262D04 /* DeviceOrientationModifier.swift in Sources */,
+				6C28B0782B58886800262D04 /* NotesListView.swift in Sources */,
+				6C28B0662B58821600262D04 /* EndPoint.swift in Sources */,
 				6C28B0102B587FF800262D04 /* VoiceToTextNotesApp.swift in Sources */,
+				6C28B06C2B58821600262D04 /* TaskDetailsViewModel.swift in Sources */,
+				6C28B06E2B58821600262D04 /* TaskListViewModel.swift in Sources */,
+				6C28B06A2B58821600262D04 /* WebView.swift in Sources */,
+				6C28B0752B58843500262D04 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +587,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VoiceToTextNotes/Preview Content\"";
+				DEVELOPMENT_TEAM = 475YN7ANSF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VoiceToTextNotes/Info.plist;
@@ -444,7 +601,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abozaid.ibrahim.VoiceToTextNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = abozaid.ibrahim.VoiceToTextNotes2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -461,6 +618,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VoiceToTextNotes/Preview Content\"";
+				DEVELOPMENT_TEAM = 475YN7ANSF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VoiceToTextNotes/Info.plist;
@@ -474,7 +632,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abozaid.ibrahim.VoiceToTextNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = abozaid.ibrahim.VoiceToTextNotes2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -3,8 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>UIBackgroundModes</key>
-	<array>
-		<string>remote-notification</string>
-	</array>
+	<array/>
+
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Need microphone access for uploading audio</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Need recognition access for voice recogination</string>
 </dict>
 </plist>
