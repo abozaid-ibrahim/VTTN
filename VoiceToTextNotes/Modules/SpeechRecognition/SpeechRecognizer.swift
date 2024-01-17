@@ -1,44 +1,25 @@
 //
-//  VoiceTexter.swift
+//  SpeechRecognizer.swift
 //  VoiceToTextNotes
 //
 //  Created by abuzeid on 18.01.24.
 //
 
 import Foundation
+
+import Foundation
 import SwiftUI
 import Speech
 
-struct SpeechRecognitionView: View {
-    @Environment(\.presentationMode) var presentationMode
-    @State private var transcribedText: String = ""
+final class SpeechRecognizer{
+    @State  var transcribedText: String = ""
     @State private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     @State private var recognitionTask: SFSpeechRecognitionTask?
     @State private var audioEngine = AVAudioEngine()
     // Define `speechRecognizer` as a constant property of the view
     let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "en-US"))
 
-    var body: some View {
-        VStack {
-            Text(transcribedText)
-                .padding()
-
-            Button("Start Listening") {
-              try?  startSpeechRecognition()
-            }
-
-            Button("Stop Listening") {
-                stopListening()
-            }
-
-            Button("Close") {
-                presentationMode.wrappedValue.dismiss()
-            }
-        }
-        .padding()
-    }
-
-    private func stopListening() {
+     func stopListening() {
         audioEngine.stop()
         recognitionRequest?.endAudio()
         audioEngine.inputNode.removeTap(onBus: 0)
@@ -96,13 +77,13 @@ struct SpeechRecognitionView: View {
 
             if let result = result {
                 // Update your UI with the result here
-                 transcribedText = result.bestTranscription.formattedString
+                self.transcribedText = result.bestTranscription.formattedString
                 isFinal = result.isFinal
             }
 
             if error != nil || isFinal {
                 // Stop the audio engine and recognition task
-                audioEngine.stop()
+                self.audioEngine.stop()
                 inputNode.removeTap(onBus: 0)
                 self.recognitionTask = nil
                 self.recognitionRequest = nil
