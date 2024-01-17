@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C28B0102B587FF800262D04 /* VoiceToTextNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B00F2B587FF800262D04 /* VoiceToTextNotesApp.swift */; };
+		6C28B0122B587FF800262D04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0112B587FF800262D04 /* ContentView.swift */; };
+		6C28B0142B587FF800262D04 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0132B587FF800262D04 /* Item.swift */; };
+		6C28B0162B587FFA00262D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C28B0152B587FFA00262D04 /* Assets.xcassets */; };
+		6C28B0192B587FFA00262D04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C28B0182B587FFA00262D04 /* Preview Assets.xcassets */; };
+		6C28B0252B587FFA00262D04 /* VoiceToTextNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0242B587FFA00262D04 /* VoiceToTextNotesTests.swift */; };
+		6C28B02F2B587FFA00262D04 /* VoiceToTextNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B02E2B587FFA00262D04 /* VoiceToTextNotesUITests.swift */; };
+		6C28B0312B587FFA00262D04 /* VoiceToTextNotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28B0302B587FFA00262D04 /* VoiceToTextNotesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C28B0212B587FFA00262D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C28B0042B587FF800262D04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C28B00B2B587FF800262D04;
+			remoteInfo = VoiceToTextNotes;
+		};
+		6C28B02B2B587FFA00262D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C28B0042B587FF800262D04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C28B00B2B587FF800262D04;
+			remoteInfo = VoiceToTextNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C28B00C2B587FF800262D04 /* VoiceToTextNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceToTextNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C28B00F2B587FF800262D04 /* VoiceToTextNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceToTextNotesApp.swift; sourceTree = "<group>"; };
+		6C28B0112B587FF800262D04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C28B0132B587FF800262D04 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		6C28B0152B587FFA00262D04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C28B0182B587FFA00262D04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C28B01A2B587FFA00262D04 /* VoiceToTextNotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VoiceToTextNotes.entitlements; sourceTree = "<group>"; };
+		6C28B01B2B587FFA00262D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C28B0202B587FFA00262D04 /* VoiceToTextNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceToTextNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C28B0242B587FFA00262D04 /* VoiceToTextNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceToTextNotesTests.swift; sourceTree = "<group>"; };
+		6C28B02A2B587FFA00262D04 /* VoiceToTextNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceToTextNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C28B02E2B587FFA00262D04 /* VoiceToTextNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceToTextNotesUITests.swift; sourceTree = "<group>"; };
+		6C28B0302B587FFA00262D04 /* VoiceToTextNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceToTextNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C28B0092B587FF800262D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C28B01D2B587FFA00262D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C28B0272B587FFA00262D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C28B0032B587FF800262D04 = {
+			isa = PBXGroup;
+			children = (
+				6C28B00E2B587FF800262D04 /* VoiceToTextNotes */,
+				6C28B0232B587FFA00262D04 /* VoiceToTextNotesTests */,
+				6C28B02D2B587FFA00262D04 /* VoiceToTextNotesUITests */,
+				6C28B00D2B587FF800262D04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C28B00D2B587FF800262D04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B00C2B587FF800262D04 /* VoiceToTextNotes.app */,
+				6C28B0202B587FFA00262D04 /* VoiceToTextNotesTests.xctest */,
+				6C28B02A2B587FFA00262D04 /* VoiceToTextNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C28B00E2B587FF800262D04 /* VoiceToTextNotes */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B00F2B587FF800262D04 /* VoiceToTextNotesApp.swift */,
+				6C28B0112B587FF800262D04 /* ContentView.swift */,
+				6C28B0132B587FF800262D04 /* Item.swift */,
+				6C28B0152B587FFA00262D04 /* Assets.xcassets */,
+				6C28B01A2B587FFA00262D04 /* VoiceToTextNotes.entitlements */,
+				6C28B01B2B587FFA00262D04 /* Info.plist */,
+				6C28B0172B587FFA00262D04 /* Preview Content */,
+			);
+			path = VoiceToTextNotes;
+			sourceTree = "<group>";
+		};
+		6C28B0172B587FFA00262D04 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B0182B587FFA00262D04 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C28B0232B587FFA00262D04 /* VoiceToTextNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B0242B587FFA00262D04 /* VoiceToTextNotesTests.swift */,
+			);
+			path = VoiceToTextNotesTests;
+			sourceTree = "<group>";
+		};
+		6C28B02D2B587FFA00262D04 /* VoiceToTextNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C28B02E2B587FFA00262D04 /* VoiceToTextNotesUITests.swift */,
+				6C28B0302B587FFA00262D04 /* VoiceToTextNotesUITestsLaunchTests.swift */,
+			);
+			path = VoiceToTextNotesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C28B00B2B587FF800262D04 /* VoiceToTextNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C28B0342B587FFA00262D04 /* Build configuration list for PBXNativeTarget "VoiceToTextNotes" */;
+			buildPhases = (
+				6C28B0082B587FF800262D04 /* Sources */,
+				6C28B0092B587FF800262D04 /* Frameworks */,
+				6C28B00A2B587FF800262D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceToTextNotes;
+			productName = VoiceToTextNotes;
+			productReference = 6C28B00C2B587FF800262D04 /* VoiceToTextNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C28B01F2B587FFA00262D04 /* VoiceToTextNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C28B0372B587FFA00262D04 /* Build configuration list for PBXNativeTarget "VoiceToTextNotesTests" */;
+			buildPhases = (
+				6C28B01C2B587FFA00262D04 /* Sources */,
+				6C28B01D2B587FFA00262D04 /* Frameworks */,
+				6C28B01E2B587FFA00262D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C28B0222B587FFA00262D04 /* PBXTargetDependency */,
+			);
+			name = VoiceToTextNotesTests;
+			productName = VoiceToTextNotesTests;
+			productReference = 6C28B0202B587FFA00262D04 /* VoiceToTextNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C28B0292B587FFA00262D04 /* VoiceToTextNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C28B03A2B587FFA00262D04 /* Build configuration list for PBXNativeTarget "VoiceToTextNotesUITests" */;
+			buildPhases = (
+				6C28B0262B587FFA00262D04 /* Sources */,
+				6C28B0272B587FFA00262D04 /* Frameworks */,
+				6C28B0282B587FFA00262D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C28B02C2B587FFA00262D04 /* PBXTargetDependency */,
+			);
+			name = VoiceToTextNotesUITests;
+			productName = VoiceToTextNotesUITests;
+			productReference = 6C28B02A2B587FFA00262D04 /* VoiceToTextNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C28B0042B587FF800262D04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6C28B00B2B587FF800262D04 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					6C28B01F2B587FFA00262D04 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6C28B00B2B587FF800262D04;
+					};
+					6C28B0292B587FFA00262D04 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6C28B00B2B587FF800262D04;
+					};
+				};
+			};
+			buildConfigurationList = 6C28B0072B587FF800262D04 /* Build configuration list for PBXProject "VoiceToTextNotes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C28B0032B587FF800262D04;
+			productRefGroup = 6C28B00D2B587FF800262D04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C28B00B2B587FF800262D04 /* VoiceToTextNotes */,
+				6C28B01F2B587FFA00262D04 /* VoiceToTextNotesTests */,
+				6C28B0292B587FFA00262D04 /* VoiceToTextNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C28B00A2B587FF800262D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C28B0192B587FFA00262D04 /* Preview Assets.xcassets in Resources */,
+				6C28B0162B587FFA00262D04 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C28B01E2B587FFA00262D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C28B0282B587FFA00262D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C28B0082B587FF800262D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C28B0122B587FF800262D04 /* ContentView.swift in Sources */,
+				6C28B0142B587FF800262D04 /* Item.swift in Sources */,
+				6C28B0102B587FF800262D04 /* VoiceToTextNotesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C28B01C2B587FFA00262D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C28B0252B587FFA00262D04 /* VoiceToTextNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C28B0262B587FFA00262D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C28B02F2B587FFA00262D04 /* VoiceToTextNotesUITests.swift in Sources */,
+				6C28B0312B587FFA00262D04 /* VoiceToTextNotesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C28B0222B587FFA00262D04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C28B00B2B587FF800262D04 /* VoiceToTextNotes */;
+			targetProxy = 6C28B0212B587FFA00262D04 /* PBXContainerItemProxy */;
+		};
+		6C28B02C2B587FFA00262D04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C28B00B2B587FF800262D04 /* VoiceToTextNotes */;
+			targetProxy = 6C28B02B2B587FFA00262D04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C28B0322B587FFA00262D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C28B0332B587FFA00262D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C28B0352B587FFA00262D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VoiceToTextNotes/VoiceToTextNotes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VoiceToTextNotes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiceToTextNotes/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abozaid.ibrahim.VoiceToTextNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C28B0362B587FFA00262D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VoiceToTextNotes/VoiceToTextNotes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VoiceToTextNotes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiceToTextNotes/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abozaid.ibrahim.VoiceToTextNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C28B0382B587FFA00262D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abozaid.ibrahim.VoiceToTextNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceToTextNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VoiceToTextNotes";
+			};
+			name = Debug;
+		};
+		6C28B0392B587FFA00262D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abozaid.ibrahim.VoiceToTextNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceToTextNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VoiceToTextNotes";
+			};
+			name = Release;
+		};
+		6C28B03B2B587FFA00262D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abozaid.ibrahim.VoiceToTextNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoiceToTextNotes;
+			};
+			name = Debug;
+		};
+		6C28B03C2B587FFA00262D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abozaid.ibrahim.VoiceToTextNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoiceToTextNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C28B0072B587FF800262D04 /* Build configuration list for PBXProject "VoiceToTextNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C28B0322B587FFA00262D04 /* Debug */,
+				6C28B0332B587FFA00262D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C28B0342B587FFA00262D04 /* Build configuration list for PBXNativeTarget "VoiceToTextNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C28B0352B587FFA00262D04 /* Debug */,
+				6C28B0362B587FFA00262D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C28B0372B587FFA00262D04 /* Build configuration list for PBXNativeTarget "VoiceToTextNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C28B0382B587FFA00262D04 /* Debug */,
+				6C28B0392B587FFA00262D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C28B03A2B587FFA00262D04 /* Build configuration list for PBXNativeTarget "VoiceToTextNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C28B03B2B587FFA00262D04 /* Debug */,
+				6C28B03C2B587FFA00262D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C28B0042B587FF800262D04 /* Project object */;
+}
