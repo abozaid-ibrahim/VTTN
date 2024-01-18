@@ -6,3 +6,10 @@
 //
 
 import Foundation
+final class DataCache {
+    func save(item _: UserInput) {}
+
+    func load() -> [UserInput] {
+        []
+    }
+}

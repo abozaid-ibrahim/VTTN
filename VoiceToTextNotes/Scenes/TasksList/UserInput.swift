@@ -8,9 +8,9 @@
 import Foundation
 
 typealias Tasks = [UserInput]
-struct UserInput: Identifiable,Codable, Equatable, Hashable {
+struct UserInput: Identifiable, Codable, Equatable, Hashable {
     var id: String = UUID().uuidString
-//    var createdAt = Date()
+    var createdAt = Date()
     var text: String
     var filePath: String
 }

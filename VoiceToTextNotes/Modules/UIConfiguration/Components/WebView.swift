@@ -23,5 +23,5 @@ struct WebView: UIViewRepresentable {
 }
 
 #Preview {
-    WebView(url: "Task.example.")
+    WebView(url: "UserInput.example.")
 }

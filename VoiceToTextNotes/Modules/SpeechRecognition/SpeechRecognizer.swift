@@ -6,29 +6,28 @@
 //
 
 import Foundation
-
-import Foundation
-import SwiftUI
 import Speech
+import SwiftUI
 
-final class SpeechRecognizer{
-    @State  var transcribedText: String = ""
+protocol Recognizer {}
+
+final class SpeechRecognizer: Recognizer {
+    @State private var transcribedText: String = ""
     @State private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     @State private var recognitionTask: SFSpeechRecognitionTask?
     @State private var audioEngine = AVAudioEngine()
     // Define `speechRecognizer` as a constant property of the view
     let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "en-US"))
 
-     func stopListening() {
+    func stopListening() -> String {
         audioEngine.stop()
         recognitionRequest?.endAudio()
         audioEngine.inputNode.removeTap(onBus: 0)
+        return transcribedText
     }
 
-   
-
     func requestPermission() async -> Bool {
-        return await withCheckedContinuation { continuation in
+        await withCheckedContinuation { continuation in
             SFSpeechRecognizer.requestAuthorization { authStatus in
                 switch authStatus {
                 case .authorized:
@@ -42,7 +41,11 @@ final class SpeechRecognizer{
         }
     }
 
-     func startSpeechRecognition() throws {
+    func startSpeechRecognition()async throws {
+         let hasPermission = await requestPermission()
+        guard hasPermission else {
+            throw SpeechRecognizerError.permissionDenied
+        }
         // Ensure the recognitionTask is stopped
         if let recognitionTask = recognitionTask {
             recognitionTask.cancel()
@@ -90,5 +93,7 @@ final class SpeechRecognizer{
             }
         }
     }
-
+}
+enum SpeechRecognizerError: Error {
+case permissionDenied
 }

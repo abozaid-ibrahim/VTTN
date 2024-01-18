@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct TasksListView: View {
-    @ObservedObject var viewModel: TasksViewModel
+    @ObservedObject var viewModel: TasksViewModel = .init()
 
     var body: some View {
         NavigationView {
             List(viewModel.tasks) { task in
-                Text(task.title)
+                Text(task.text)
             }
             .navigationTitle("Tasks")
             .navigationBarItems(trailing: Button(action: {
@@ -25,7 +25,6 @@ struct TasksListView: View {
     }
 }
 
-
-//#Preview {
-//    TasksListView()
-//}
+#Preview {
+    TasksListView()
+}

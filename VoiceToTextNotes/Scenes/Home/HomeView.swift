@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SwiftUI
 
 struct HomeView: View {
     @StateObject var tasksViewModel = TasksViewModel()
@@ -14,27 +13,23 @@ struct HomeView: View {
 
     var body: some View {
         TabView {
-            TasksListView(viewModel: tasksViewModel)
-                .tabItem {
-                    Label("Tasks", systemImage: "checklist")
-                }
-
             NotesListView(viewModel: notesViewModel)
                 .tabItem {
                     Label("Notes", systemImage: "note.text")
+                }
+            TasksListView(viewModel: tasksViewModel)
+                .tabItem {
+                    Label("Tasks", systemImage: "checklist")
                 }
         }
     }
 }
 
-
-
 // ViewModels
 class TasksViewModel: ObservableObject {
-    @Published var tasks: [Task] = []
+    @Published var tasks: [UserInput] = []
     // Functions to handle tasks...
 }
-
 
 #Preview {
     HomeView()

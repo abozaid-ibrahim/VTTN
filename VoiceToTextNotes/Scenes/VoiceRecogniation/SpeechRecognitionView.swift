@@ -1,28 +1,29 @@
 //
-//  VoiceTexter.swift
+//  SpeechRecognitionView.swift
 //  VoiceToTextNotes
 //
 //  Created by abuzeid on 18.01.24.
 //
 
-import Foundation
 import SwiftUI
-import Speech
 
 struct SpeechRecognitionView: View {
     @Environment(\.presentationMode) var presentationMode
-    private let recognizer = SpeechRecognizer()
+    private let recognizer = VoiceTexterCoordinator()
     var body: some View {
-        VStack {
-            Text(recognizer.transcribedText)
-                .padding()
+        VStack(spacing: 40) {
+            if let input = recognizer.userInput {
+                Text(input.text)
+                    .padding()
+                AudioPlayerView(audioURL: input.filePath)
+            }
 
             Button("Start Listening") {
-                try?  recognizer.startSpeechRecognition()
+                Task{   await try! recognizer.start()}
             }
 
             Button("Stop Listening") {
-                recognizer.stopListening()
+                recognizer.stop()
             }
 
             Button("Close") {
@@ -31,5 +32,4 @@ struct SpeechRecognitionView: View {
         }
         .padding()
     }
-
 }

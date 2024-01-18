@@ -7,10 +7,8 @@
 
 import SwiftUI
 
-
-
 class NotesViewModel: ObservableObject {
-    @Published var notes: [Task] = []
+    @Published var notes: [UserInput] = []
     // Functions to handle notes...
 }
 
@@ -22,8 +20,9 @@ struct NotesListView: View {
     var body: some View {
         NavigationView {
             List(viewModel.notes) { note in
-                Text(note.title)
+                Text(note.text)
             }
+
             .sheet(isPresented: $showingSheet) {
                 SpeechRecognitionView()
             }
@@ -33,11 +32,9 @@ struct NotesListView: View {
             }) {
                 Image(systemName: "plus")
             })
-            
         }
     }
 }
-
 
 #Preview {
     NotesListView()

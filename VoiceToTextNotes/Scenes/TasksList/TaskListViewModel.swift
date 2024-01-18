@@ -5,15 +5,15 @@
 //  Created by abuzeid on 13.01.24.
 //
 
+import Combine
 import Foundation
 import SwiftUI
-import Combine
 
 final class TaskListViewModel: ObservableObject, AsyncImageURL {
-    /// The current loading state of the Task details.
+    /// The current loading state of the UserInput details.
     @MainActor @Published var state: LoadingDataState<Tasks> = .isLoading
 
-    /// The client responsible for fetching Task details from the API.
+    /// The client responsible for fetching UserInput details from the API.
     private let apiClient: APIClient
 
     /// Initializes a new instance of `TaskListViewModel`.
@@ -24,19 +24,19 @@ final class TaskListViewModel: ObservableObject, AsyncImageURL {
         self.apiClient = apiClient
     }
 
-    /// Fetches details for the associated Task node asynchronously.
+    /// Fetches details for the associated UserInput node asynchronously.
     @MainActor
     func fetchData() async {
         state = .isLoading
         do {
-            state = try .success([])//await fetchTasksList()
+            state = try .success([]) // await fetchTasksList()
         } catch {
             state = .failure(error.localizedDescription)
         }
     }
 
 //    private func fetchTasksList() async throws -> Tasks {
-//        try await Task(priority: .background) {
+//        try await UserInput(priority: .background) {
 //            try await apiClient.fetchData(for: .init(path: "list"))
 //        }.value
 //    }

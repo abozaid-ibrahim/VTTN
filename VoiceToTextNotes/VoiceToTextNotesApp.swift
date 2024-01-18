@@ -5,8 +5,8 @@
 //  Created by abuzeid on 17.01.24.
 //
 
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 @main
 struct VoiceToTextNotesApp: App {
