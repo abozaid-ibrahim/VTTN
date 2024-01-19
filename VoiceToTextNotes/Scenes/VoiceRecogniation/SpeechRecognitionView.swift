@@ -19,7 +19,7 @@ struct SpeechRecognitionView: View {
             }
 
             Button("Start Listening") {
-                Task{   await try! recognizer.start()}
+                Task { await try! recognizer.start() }
             }
 
             Button("Stop Listening") {

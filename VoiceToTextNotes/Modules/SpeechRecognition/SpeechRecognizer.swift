@@ -41,8 +41,8 @@ final class SpeechRecognizer: Recognizer {
         }
     }
 
-    func startSpeechRecognition()async throws {
-         let hasPermission = await requestPermission()
+    func startSpeechRecognition() async throws {
+        let hasPermission = await requestPermission()
         guard hasPermission else {
             throw SpeechRecognizerError.permissionDenied
         }
@@ -94,6 +94,7 @@ final class SpeechRecognizer: Recognizer {
         }
     }
 }
+
 enum SpeechRecognizerError: Error {
-case permissionDenied
+    case permissionDenied
 }

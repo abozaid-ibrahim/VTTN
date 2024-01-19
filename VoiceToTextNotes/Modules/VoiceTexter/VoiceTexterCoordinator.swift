@@ -12,7 +12,7 @@ final class VoiceTexterCoordinator {
     let cache = DataCache()
     @Published var userInput: UserInput?
 
-    func start()async throws {
+    func start() async throws {
         await try? recognizer.startSpeechRecognition()
         try? recorder.startRecording()
     }
